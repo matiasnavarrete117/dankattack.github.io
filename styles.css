@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('pepe_icon.png'), linear-gradient(to top, #1a1a1a 0%, #303030 100%);
+    background-image: url('pepe_icon.png'), linear-gradient(to top, #1a1a1a 0%, rgb(77, 77, 77) 100%);
     background-size: 85px;
     background-repeat: repeat;
     height: 100vh;
@@ -13,6 +13,18 @@ body {
     font-family: 'FuenteDank', sans-serif;
     font-size: 1.5em;
     animation: moveBackground 50s linear infinite;
+ 
+}
+
+.container_content {
+    padding: 5%;
+
+}
+
+a.nav-link {
+    margin-right: 30px;
+    margin-left: 20px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
 }
 
 @keyframes moveBackground {
