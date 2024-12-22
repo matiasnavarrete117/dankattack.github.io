@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'FuenteDank';
+    src: url('Dank_sFont.ttf') format('truetype');
+}
+
+body {
+    background-image: url('pepe_icon.png'), linear-gradient(to top, #1a1a1a 0%, #303030 100%);
+    background-size: 85px;
+    background-repeat: repeat;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: 'FuenteDank', sans-serif;
+    font-size: 1.5em;
+    animation: moveBackground 50s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% -50%;
+    }
+}
